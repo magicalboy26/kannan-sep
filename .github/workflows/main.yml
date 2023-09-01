@@ -12,7 +12,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: github
 
     steps:
 #      - name: Checkout code
