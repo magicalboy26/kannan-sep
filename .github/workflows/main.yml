@@ -1,9 +1,14 @@
 name: Deploy README
 
+#on:
+#  push:
+#    paths:
+#      - 'README.md'
+
 on:
   push:
-    paths:
-      - 'README.md'
+    branches:
+      - main
 
 jobs:
   deploy:
